@@ -4,7 +4,7 @@ Step-2) Expose Blue PODS using Live-Service
 
 Step-3) Access application using Live Service (Blue PODS will run)
 
-Step-4) Clone git repo (https://github.com/ashokitschool/java_web_docker_app)
+Step-4) Clone any git repo 
 
 Step-5) Modify Code + Build Project using Maven + Create Docker Image + Push Image to Docker Hub
 
