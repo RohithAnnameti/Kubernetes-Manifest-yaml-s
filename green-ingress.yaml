@@ -12,6 +12,6 @@ spec:
        pathType: Prefix
        backend:
          service:
-           name: javewebappgreenservice
+           name: javawebappgreenservice
            port:
              number: 80
