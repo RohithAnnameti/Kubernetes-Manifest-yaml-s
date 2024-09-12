@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+ name: app-ingress
+ namespace: green
+spec:
+ rules:
+ - host: rohithtesting.in
+   http:
+     paths:
+     - path: /
+       pathType: Prefix
+       backend:
+         service:
+           name: javawebappblueservice
+           port:
+             number: 80
